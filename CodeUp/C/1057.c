@@ -4,7 +4,11 @@ int main() {
 
     int a = 0, b = 0;
     scanf("%d %d", &a, &b);
-    printf("%d", a / b);
+    if (a == b) {
+        printf("%d", 1);
+    } else {
+        printf("%d", 0);
+    }
 
     return 0;
 
