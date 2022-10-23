@@ -6,5 +6,6 @@ int main()
     int max_b = 0x7fffffff;
  
     printf("%d %d", min_a, max_b);
+    
     return 0;
 }
