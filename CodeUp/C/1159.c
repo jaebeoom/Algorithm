@@ -2,15 +2,14 @@
 
 int main()
 {
-	float num = 0.0;
+	int num = 0;
 
-	scanf("%f", &num);
+	scanf("%d", &num);
     
-	if(num >= 50.0 && num <= 60.0) 
+	if(num >= 50 && num <= 70 || num % 6 == 0) 
         printf("win");
     else 
         printf("lose");
         
 	return 0;
 }
-
