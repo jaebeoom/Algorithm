@@ -14,6 +14,5 @@ int main()
     else if(a == b){printf("=");}
     else{printf("<");}
     
-    
 	return 0;
 }
